@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.3](https://github.com/romdo/release-bot-tests/compare/v0.0.2...v0.0.3) (2023-05-04)
+
+
+### Miscellaneous Chores
+
+* **releaes:** switch jimeh/release-please-action to main branch ([7293547](https://github.com/romdo/release-bot-tests/commit/729354769f32fe4c83b2526dc0dde91fe97d7ef2))
+
 ## [0.0.2](https://github.com/romdo/release-bot-tests/compare/v0.0.1...v0.0.2) (2023-05-04)
 
 
