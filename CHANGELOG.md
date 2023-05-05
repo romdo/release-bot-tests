@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.0.6](https://github.com/romdo/release-bot-tests/compare/v0.0.5...v0.0.6) (2023-05-05)
+
+
+### Features
+
+* **release:** try using release-pr and github-release commands ([468643b](https://github.com/romdo/release-bot-tests/commit/468643b0f1b67297b9080ea30c83f11b3a8f0ea8))
+
+
+### Bug Fixes
+
+* **release:** debug print all ([0c26d24](https://github.com/romdo/release-bot-tests/commit/0c26d249361d434841347c36822c47a13c02d04f))
+* **release:** debug print all, maybe for real this time ([578c331](https://github.com/romdo/release-bot-tests/commit/578c331b96773f3eb1e96dbc30d0808cc8f78e80))
+* **release:** tweak release params ([061385c](https://github.com/romdo/release-bot-tests/commit/061385cb97c320de9348414e7946eb437ae0419a))
+
 ## [0.0.5](https://github.com/romdo/release-bot-tests/compare/v0.0.4...v0.0.5) (2023-05-05)
 
 
