@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.4](https://github.com/romdo/release-bot-tests/compare/v0.0.3...v0.0.4) (2023-05-05)
+
+
+### Miscellaneous Chores
+
+* **release:** test disabling use of GitHub App ([c1ac82c](https://github.com/romdo/release-bot-tests/commit/c1ac82ce92566989ba3e977218f46b4212c7e0af))
+
 ## [0.0.3](https://github.com/romdo/release-bot-tests/compare/v0.0.2...v0.0.3) (2023-05-04)
 
 
