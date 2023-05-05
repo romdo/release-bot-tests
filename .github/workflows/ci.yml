@@ -17,11 +17,16 @@ jobs:
       pr: ${{ steps.release-please.outputs.pr }}
       prs: ${{ steps.release-please.outputs.prs }}
     steps:
-      - uses: jimeh/release-please-action@main
+      - uses: tibdex/github-app-token@v1
+        if: inputs.app-id != null && inputs.app-id != ''
+        id: github-app-token
+        with:
+          app_id: ${{ secrets.RELEASE_BOT_APP_ID }}
+          private_key: ${{ secrets.RELEASE_BOT_PRIVATE_KEY }}
+      - uses: google-github-actions/release-please-action@v3
         id: release-please
         with:
-          app-id: ${{ secrets.RELEASE_BOT_APP_ID }}
-          private-key: ${{ secrets.RELEASE_BOT_PRIVATE_KEY }}
+          token: ${{ steps.github-app-token.outputs.token }}
           command: release-pr
           release-type: simple
           version-file: VERSION
@@ -42,11 +47,16 @@ jobs:
       tag_name: ${{ steps.release-please.outputs.tag_name }}
       version: ${{ steps.release-please.outputs.version }}
     steps:
-      - uses: jimeh/release-please-action@main
+      - uses: tibdex/github-app-token@v1
+        if: inputs.app-id != null && inputs.app-id != ''
+        id: github-app-token
+        with:
+          app_id: ${{ secrets.RELEASE_BOT_APP_ID }}
+          private_key: ${{ secrets.RELEASE_BOT_PRIVATE_KEY }}
+      - uses: google-github-actions/release-please-action@v3
         id: release-please
         with:
-          app-id: ${{ secrets.RELEASE_BOT_APP_ID }}
-          private-key: ${{ secrets.RELEASE_BOT_PRIVATE_KEY }}
+          token: ${{ steps.github-app-token.outputs.token }}
           command: github-release
           release-type: simple
           version-file: VERSION
