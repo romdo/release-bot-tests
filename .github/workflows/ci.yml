@@ -30,9 +30,7 @@ jobs:
           extra-files: |
             README.md
       - name: Debug print all
-        run: echo "$ALL" | jq
-        env:
-          ALL: ${{ steps.release-please.outputs.all }}
+        run: echo '${{ steps.release-please.outputs.all }}' | jq
 
   create-release:
     runs-on: ubuntu-latest
@@ -56,9 +54,7 @@ jobs:
           extra-files: |
             README.md
       - name: Debug print all
-        run: echo "$ALL" | jq
-        env:
-          ALL: ${{ steps.release-please.outputs.all }}
+        run: echo '${{ steps.release-please.outputs.all }}' | jq
 
   debug-release-pr:
     runs-on: ubuntu-latest
