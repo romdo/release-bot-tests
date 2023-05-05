@@ -23,8 +23,8 @@ jobs:
       - uses: jimeh/release-please-action@main
         id: release-please
         with:
-          app-id: ${{ secrets.RELEASE_BOT_APP_ID }}
-          private-key: ${{ secrets.RELEASE_BOT_PRIVATE_KEY }}
+          # app-id: ${{ secrets.RELEASE_BOT_APP_ID }}
+          # private-key: ${{ secrets.RELEASE_BOT_PRIVATE_KEY }}
           command: manifest
 
   # Always runs after release-please to print all the outputs.
