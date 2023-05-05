@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.8](https://github.com/romdo/release-bot-tests/compare/v0.0.7...v0.0.8) (2023-05-05)
+
+
+### Features
+
+* **release:** shift back to jimeh/release-please-action ([d5f51c2](https://github.com/romdo/release-bot-tests/commit/d5f51c21bc703bb54c3c84a8dc72827fd9cb7c93))
+* **release:** switch back to a manifest based setup ([557b801](https://github.com/romdo/release-bot-tests/commit/557b801f5ceebf7215dc75442789dfbcad7a9de3))
+
 ## [0.0.7](https://github.com/romdo/release-bot-tests/compare/v0.0.6...v0.0.7) (2023-05-05)
 
 
