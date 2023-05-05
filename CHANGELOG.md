@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.0.7](https://github.com/romdo/release-bot-tests/compare/v0.0.6...v0.0.7) (2023-05-05)
+
+
+### Features
+
+* **release:** try using original actions see if we get outputs ([7c8baa8](https://github.com/romdo/release-bot-tests/commit/7c8baa80e9f7c8a45f1b1c3a8667840437f60197))
+
+
+### Bug Fixes
+
+* **release:** fix debug print for real ([4b7f0c8](https://github.com/romdo/release-bot-tests/commit/4b7f0c81a5b83fa49581fe94efdf7821bcc9d9e2))
+* **release:** fix debug print for real, really ([46abad8](https://github.com/romdo/release-bot-tests/commit/46abad83c0fc634e3c8b758ee6dfd19127dad84f))
+* **release:** remove if condition ([f08f39e](https://github.com/romdo/release-bot-tests/commit/f08f39e4c7c5c44f8bab5bc5ed2d1d9cc29aaffb))
+
 ## [0.0.6](https://github.com/romdo/release-bot-tests/compare/v0.0.5...v0.0.6) (2023-05-05)
 
 
