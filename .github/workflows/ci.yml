@@ -25,6 +25,8 @@ jobs:
           command: release-pr
           release-type: simple
           version-file: VERSION
+          bump-minor-pre-major: true
+          bump-patch-for-minor-pre-major: true
           extra-files: |
             README.md
       - name: Debug print all
@@ -47,6 +49,12 @@ jobs:
           app-id: ${{ secrets.RELEASE_BOT_APP_ID }}
           private-key: ${{ secrets.RELEASE_BOT_PRIVATE_KEY }}
           command: github-release
+          release-type: simple
+          version-file: VERSION
+          bump-minor-pre-major: true
+          bump-patch-for-minor-pre-major: true
+          extra-files: |
+            README.md
       - name: Debug print all
         run: echo "$ALL" | jq
         env:
