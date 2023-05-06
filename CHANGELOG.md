@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.0.9](https://github.com/romdo/release-bot-tests/compare/v0.0.8...v0.0.9) (2023-05-06)
+
+
+### Features
+
+* **release:** try alpha branch of jimeh/release-please-action ([565c2d1](https://github.com/romdo/release-bot-tests/commit/565c2d1a8f0027d63ec3210ae40503324db91f48))
+
+
+### Bug Fixes
+
+* **release:** attempt to print all outputs ([e4b88c7](https://github.com/romdo/release-bot-tests/commit/e4b88c702966072ad0541fc2d6892bdce8bd9bec))
+* **release:** print all again, maybe? ([3b5dc07](https://github.com/romdo/release-bot-tests/commit/3b5dc07162e3d9f2a7e8262a8fd31fb153989cb9))
+
 ## [0.0.8](https://github.com/romdo/release-bot-tests/compare/v0.0.7...v0.0.8) (2023-05-05)
 
 
