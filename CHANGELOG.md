@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.10](https://github.com/romdo/release-bot-tests/compare/v0.0.9...v0.0.10) (2023-05-07)
+
+
+### Miscellaneous Chores
+
+* **release:** update action name and branch ([1535441](https://github.com/romdo/release-bot-tests/commit/1535441a24d517eb5c552bdbf8521cafc2fc2f6e))
+
 ## [0.0.9](https://github.com/romdo/release-bot-tests/compare/v0.0.8...v0.0.9) (2023-05-06)
 
 
