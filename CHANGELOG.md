@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.11](https://github.com/romdo/release-bot-tests/compare/v0.0.10...v0.0.11) (2023-05-07)
+
+
+### Miscellaneous Chores
+
+* **release:** switch to v0 tag of release action ([d6f6ce5](https://github.com/romdo/release-bot-tests/commit/d6f6ce5d4739dd08bc7e0bfadb7fa072294590c3))
+
 ## [0.0.10](https://github.com/romdo/release-bot-tests/compare/v0.0.9...v0.0.10) (2023-05-07)
 
 
