@@ -20,7 +20,7 @@ jobs:
       prs: ${{ steps.release-please.outputs.prs }}
       all: ${{ toJSON(steps.release-please.outputs) }}
     steps:
-      - uses: jimeh/release-please-action@alpha
+      - uses: jimeh/release-please-manifest-action@main
         id: release-please
         with:
           app-id: ${{ secrets.RELEASE_BOT_APP_ID }}
