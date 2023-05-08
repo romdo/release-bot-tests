@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.0.12](https://github.com/romdo/release-bot-tests/compare/v0.0.11...v0.0.12) (2023-05-08)
+
+
+### Bug Fixes
+
+* **release:** rename manifest file ([281d036](https://github.com/romdo/release-bot-tests/commit/281d03650c0ca21bb266f3e4a597e5a0526dd8a8))
+
+
+### Miscellaneous Chores
+
+* **release:** simplify if condition ([cf806eb](https://github.com/romdo/release-bot-tests/commit/cf806ebd9bffaedc88bc330dc0ae5763d0844142))
+
 ## [0.0.11](https://github.com/romdo/release-bot-tests/compare/v0.0.10...v0.0.11) (2023-05-07)
 
 
