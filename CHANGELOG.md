@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.13](https://github.com/romdo/release-bot-tests/compare/v0.0.12...v0.0.13) (2023-05-08)
+
+
+### Features
+
+* **releae:** switch to v1 of action ([0dfa0d5](https://github.com/romdo/release-bot-tests/commit/0dfa0d5d1782fbb92b7058245d6141a128929bc3))
+
 ## [0.0.12](https://github.com/romdo/release-bot-tests/compare/v0.0.11...v0.0.12) (2023-05-08)
 
 
