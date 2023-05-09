@@ -11,20 +11,10 @@ jobs:
           echo 'Running tests... all OK'
 
   release-please:
-    runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
-    outputs:
-      release_created: ${{ steps.release-please.outputs.release_created }}
-      tag_name: ${{ steps.release-please.outputs.tag_name }} # e.g. v1.0.0
-      version: ${{ steps.release-please.outputs.version }} # e.g. 1.0.0
-      prs: ${{ steps.release-please.outputs.prs }}
-      all: ${{ toJSON(steps.release-please.outputs) }}
-    steps:
-      - uses: jimeh/release-please-manifest-action@v1
-        id: release-please
-        with:
-          app-id: ${{ secrets.RELEASE_BOT_APP_ID }}
-          private-key: ${{ secrets.RELEASE_BOT_PRIVATE_KEY }}
+    uses: jimeh/release-please-manifest-action/.github/workflows/manifest.yml@reusable-workflow
+    secrets:
+      app-id: ${{ secrets.RELEASE_BOT_APP_ID }}
+      private-key: ${{ secrets.RELEASE_BOT_PRIVATE_KEY }}
 
   # Always runs after release-please to print all the outputs.
   debug:
