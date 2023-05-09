@@ -12,9 +12,9 @@ jobs:
 
   release-please:
     uses: jimeh/release-please-manifest-action/.github/workflows/manifest.yml@reusable-workflow
-    secrets:
-      app-id: ${{ secrets.RELEASE_BOT_APP_ID }}
-      private-key: ${{ secrets.RELEASE_BOT_PRIVATE_KEY }}
+    # secrets:
+    #   app-id: ${{ secrets.RELEASE_BOT_APP_ID }}
+    #   private-key: ${{ secrets.RELEASE_BOT_PRIVATE_KEY }}
 
   # Always runs after release-please to print all the outputs.
   debug:
@@ -23,7 +23,7 @@ jobs:
     steps:
       - name: Print all
         run: |
-          echo '${{ needs.release-please.outputs.all }}' | jq
+          echo '${{ toJSON(needs.release-please.outputs) }}' | jq
 
   # Only runs if a Release Pull Request was created by release-please.
   debug-release-pr:
