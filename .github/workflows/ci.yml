@@ -12,7 +12,7 @@ jobs:
 
   release-please:
     uses: jimeh/release-please-manifest-action/.github/workflows/manifest.yml@reusable-workflow
-    with:
+    secrets:
       app-id: ${{ secrets.RELEASE_BOT_APP_ID }}
       private-key: ${{ secrets.RELEASE_BOT_PRIVATE_KEY }}
 
